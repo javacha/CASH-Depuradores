@@ -33,6 +33,14 @@ public class AppTest
      */
     public void testApp()
     {
+       
+        TLCLDepuraTablas dep = new TLCLDepuraTablas();
+        String path1 = "C:/Users/cocho/git/CASH-Depuradores/depuradores/src/main/resources/connDataTLCL.properties";
+        String path2 = "C:/Users/cocho/git/CASH-Depuradores/depuradores/src/main/resources/depuradorTLCL.properties";
+        
+        String[] args = { path1, path2};
+        dep.main(args);
+        
         assertTrue( true );
     }
 }

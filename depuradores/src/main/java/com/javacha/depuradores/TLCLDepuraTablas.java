@@ -322,13 +322,9 @@ public class TLCLDepuraTablas {
 	 */
 	public static void main(String[] args) {
 		TLCLDepuraTablas depuradores = new TLCLDepuraTablas();
-
 		depuradores.log("Iniciando...");
-
-		depuradores.procesar(args);
-
-		depuradores.log("Proceso finalizado");
-
+		depuradores.procesar(args);	
+		depuradores.log("Proceso finalizado");		
 	}
 
 }
